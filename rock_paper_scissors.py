@@ -25,7 +25,7 @@ while playing:
         print("You lose!")
 
     play_again = input("Play again? (y/n): ").lower()
-    if play_again != "yes":
+    if play_again != "y":
         playing = False
 
 print("\n------Thanks for playing!------")
